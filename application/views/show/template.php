@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta name="version" content="S5 1.3" />
 	<meta name="presdate" content="Winter2015" />
         <meta name="author" content="{author}" />
-        <meta name="company" content="BCIT" />
+        <meta name="company" content="{school}" />
 	<!-- meta extensions -->
 	<meta name="subject" content="[subject]" />
 	<meta name="creator" content="[creator]" />

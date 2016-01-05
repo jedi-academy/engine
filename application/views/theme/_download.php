@@ -3,4 +3,4 @@
  * Format a single organizer activity
  */
 ?>
-<a class="learn-pdf" href="/show/pdf/{pdf}"> </a>
+<a class="learn-pdf" href="{site}/show/pdf/{pdf}"> </a>

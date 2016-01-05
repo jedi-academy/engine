@@ -38,6 +38,7 @@ body {
     font-size: 14px;
     line-height: 1.42;
     font-weight: bold;
+        color: white;
 }
 
 .navbar-brand {
@@ -49,9 +50,22 @@ body {
     line-height: 22px;
     height: 50px;
     background: url('/data/logo.png') left top no-repeat;
+    color:white;
 }
+.navbar-default .navbar-brand { color:white}
+.navbar-default {
+    background-color: #DD4814;
+    border-color: #BF3E11;
+ }
+ .navbar-default .navbar-nav li a {
+        color: white;
+ }
+ .navbar-default .navbar-nav .active  a {
+       color: white;
+        background-color: #AE3910;
+ }
 
-.glyphicon {
+ .glyphicon {
     color: #8ba8af;
 }
 a .glyphicon {

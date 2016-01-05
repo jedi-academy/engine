@@ -7,7 +7,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014, British Columbia Institute of Technology
+ * Copyright (c) 2014-2016, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -30,7 +30,7 @@
  * @package	CodeIgniter
  * @author	CodeIgniter Community
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
- * @copyright	Copyright (c) 2014, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2014-2016, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
  * @since	Version 1.0.0
@@ -45,17 +45,12 @@ $config['menu_choices'] = array(
         array('name' => 'Organizer', 'link' => '/organizer'),
         array('name' => 'Reference', 'link' => '/reference'),
         array('name' => 'Help', 'link' => '/help'),
-//        array('name' => 'Contribute', 'link' => '/contribute'),
-//        array('name' => 'Learn', 'link' => '/learn')
     )
 );
 
 // data for the footer navbar
 $config['footer_choices'] = array(
     'menudata' => array(
-//        array('name' => 'Policies', 'link' => '/help'),
-//        array('name' => 'The Fine Print', 'link' => '/help/legal'),
-//        array('name' => 'About', 'link' => '/help/about')
     )
 );
 

@@ -10,10 +10,10 @@ Course organizer for Comp4711
         <lesson type="lesson" name="intro00" pdf="intro00-in-class.pdf">In-class Only Introduction</lesson>
         <lesson type="lesson" name="intro01" pdf="intro01-introduction.pdf">Introduction</lesson>
         <lesson type="lesson" name="intro02" pdf="intro02-golden-rules.pdf">Golden Rules</lesson>
-        <tutorial type="tutorial" name="setup01" pdf="setup01-xampp-installation.pdf">XAMPP Installation</tutorial>
-        <tutorial type="tutorial" name="setup02" pdf="setup02-virtual-hosting-setup.pdf">Virtual Hosting Setup</tutorial>
-        <tutorial type="tutorial" name="setup03" pdf="setup03-php-crash-course.pdf">PHP Crash Course</tutorial>
-        <lab type="lab" name="lab01" duedate="2015.09.13 17:30" pdf="lab01-development-setup.pdf">Development Setup</lab>
+        <tutorial type="tutorial" domain="devops.jlparry.com" name="setup01" pdf="setup01-xampp-installation.pdf">XAMPP Installation</tutorial>
+        <tutorial type="tutorial" domain="devops.jlparry.com" name="setup02" pdf="setup02-virtual-hosting-setup.pdf">Virtual Hosting Setup</tutorial>
+        <tutorial type="tutorial" domain="devops.jlparry.com" name="setup03" pdf="setup03-php-crash-course.pdf">PHP Crash Course</tutorial>
+        <lab type="lab" name="lab01" domain="comp4711.jlparry.com" duedate="2015.09.13 17:30" pdf="lab01-development-setup.pdf">Development Setup</lab>
     </week>
     <week num="2">
         <topic>CodeIgniter MVC Framework</topic>

@@ -8,7 +8,7 @@
  * This content is released under the MIT License (MIT)
  *
  * Copyright (c) 2008-2015, James L. Parry
- * Copyright (c) 2015, British Columbia Institute of Technology
+ * Copyright (c) 2015-2016, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -44,7 +44,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 define('DATE_FORMAT', 'Y-m-d');
 
 // where does the course data come from?
-define('DATAPATH', './data/');
+if (file_exists('./data'))
+	define('DATAPATH', './data/');
+else // fallback to testdata
+	define('DATAPATH', './testdata/');
 
 /*
   |--------------------------------------------------------------------------

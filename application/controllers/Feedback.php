@@ -8,7 +8,7 @@
  * This content is released under the MIT License (MIT)
  *
  * Copyright (c) 2008-2015, James L. Parry
- * Copyright (c) 2015, British Columbia Institute of Technology
+ * Copyright (c) 2015-2016, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -31,7 +31,7 @@
  * @package	Learn CodeIgniter
  * @author	Jim Parry
  * @copyright	Copyright (c) 2008-2015, James L. Parry
- * @copyright	Copyright (c) 2015, British Columbia Institute of Technology
+ * @copyright	Copyright (c) 2015-2016, British Columbia Institute of Technology
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://learn.codeigniter.com
  * @since	Version 1.0.0
