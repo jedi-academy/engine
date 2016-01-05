@@ -20,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
         <link rel="stylesheet" type="text/css" href="/assets/css/learning.css"/>
-        <link rel="stylesheet" type="text/css" href="/data/custom.css"/>
+        <link rel="stylesheet" type="text/css" href="/testdata/custom.css"/>
     </head>
     <body>
 
@@ -34,7 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">Webapp Development Using CodeIgniter</a>
+                    <a class="navbar-brand" href="/">{title}</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -66,8 +66,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="container">
                     <div class="row">
                         <p class="text-center">
-			    <a href="http://codeigniter.com">CodeIgniter</a> is a project of the 
-			    <a href="http://www.bcit.ca/cas/computing/">British Columbia Institute of Technology</a>
+			    <a href="{outline}">{title}</a> is a project of the 
+			    <a href="{site}">{school}</a>
                             <a href="mailto:jim_parry&commat;bcit.ca"><span class="glyphicon glyphicon-envelope"></span></a></p>
                     </div>
                 </div>

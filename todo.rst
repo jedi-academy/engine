@@ -11,7 +11,7 @@ Webapp Issues
 
 - [ ] Feedback logging needs rework ... pseudo-csv format spills across lines of text :(
 - [ ] timestamps for feedback have messed up timezone coding (all Z-05.00?)
-- [ ] Determine proper treatment of exams and/or quizzes
+- [ ] Determine proper treatment of exams and/or quizzes, or drop them(?)
 - [ ] What should we do with video or other media content?
 - [ ] Set up so that the engine can be updated using composer (except for the data folder)!
 

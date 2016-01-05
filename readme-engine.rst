@@ -7,7 +7,7 @@ authored dollowing the guidelines herein.
 
 For example, it has been used for "Webapp Development using  
 `CodeIgniter <http://codeigniter.com/>`_", hosted on the
-`author's site <http://lkearn-ci.jlparry.com/>`_ .
+`author's site <http://learn-ci.jlparry.com/>`_ .
 
 *****************
 Programming Style
@@ -72,9 +72,11 @@ Using the engine
 ****************
 
 A course designer should create a separate repository for their course content,
-which will be the "data" folder only shown here. To setup, deploy this
-webapp as the document root for a domaiun or subdomain, and then replace
-the "data" folder there with the one from your course repository. Boom!
+which will mostly be a "data" folder instead of the "testdata" folder
+shown here. You can also create a downloads folder, with anything
+you to share with your users directly. To setup your course, deploy this
+webapp as the document root for a domain or subdomain, and then copy
+the data folders from your course repository. Boom!
 
 The repo should only contain the data folder, and a composer.json to update
 the engine (once that feature is enabled).
@@ -86,6 +88,10 @@ The data folder should contain:
 - logo.png, a 40x40 icon to use for the course "brand"
 - custom.css, over-riding colors for your course
 
+A thought ... if you setup a course X with its repo, then locally 
+"git remote add engine https://github.com/jedi-academy/engine.git", then
+you could just "git pull engine master" to update your course with the latest
+engine updates :)
 
 ***************
 Acknowledgement
